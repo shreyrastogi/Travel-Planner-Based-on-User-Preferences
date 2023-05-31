@@ -114,3 +114,7 @@ The unavailability of latitudes and longitudes for various places in the source 
 6. [Related works](https://www.hindawi.com/journals/cin/2016/1281379/#relatedworks)
 7. [Research paper: A travel recommender system](https://dl.acm.org/doi/10.1145/3397271.3401444)
 8. [Research paper: IJREISS](https://www.indusedu.org/pdfs/IJREISS/IJREISS_3663_39823.pdf)
+
+## Project Team Members
+Atish Ghosh(MT21018), Neha Rewari(MT21055), Rishabh Gupta(MT21070), Seema Anjum(MT21078), Shrey Rastogi(MT21145)
+
