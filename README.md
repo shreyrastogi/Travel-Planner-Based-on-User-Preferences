@@ -21,17 +21,73 @@ Our proposed methodology involves the following steps:
 ### Model 1: Clustering using Jaccard similarity
 This baseline model uses K-means clustering with Jaccard coefficient to filter out top-rated places. Precision is calculated by comparing the benchmark values with the predicted values.
 
-<!-- ![](images/model_1_architecture.jpg) -->
-<!-- Model 1 : Architecture -->
+![](Report_Flowcharts_Screenshots/architecture_model_1.png)
+<p align = "center"> Model 1 : Architecture </p>
+<br>
+
+![](Report_Flowcharts_Screenshots/k_means_clustering_model_1.png)
+<p align = "center"> K-Means clustering for Model 1 </p>
+<br>
+<br>
+
+![](Report_Flowcharts_Screenshots/day_wise_sequence_of_clusters_model_1.png)
+<br>
+Day-wise sequence of clusters for Model 1
+
+![](Report_Flowcharts_Screenshots/travel_locations_corresponding_to_day_wise_sequence_of_clusters_model_1.png)
+<br>
+Travel locations corresponding to the day-wise sequence of clusters for Model 1
+<br>
+<br>
 
 ### Model 2: Clustering using Cosine Similarity
 The second baseline model utilizes the TF-IDF model with different weighing schemes and cosine similarity to filter out top-rated places. Precision is calculated by comparing the benchmark values with the predicted values.
 
+![](Report_Flowcharts_Screenshots/architecture_model_2.png)
+<p align = "center"> Model 2 : Architecture </p>
+<br>
+
+![](Report_Flowcharts_Screenshots/k_means_clustering_model_2.png)
+<p align = "center"> K-Means clustering for Model 2 </p>
+<br>
+<br>
+
+![](Report_Flowcharts_Screenshots/day_wise_sequence_of_clusters_model_2.png)
+<br>
+Day-wise sequence of clusters for Model 2
+
+![](Report_Flowcharts_Screenshots/travel_locations_corresponding_to_day_wise_sequence_of_clusters_model_2.png)
+<br>
+Travel locations corresponding to the day-wise sequence of clusters for Model 2
+<br>
+<br>
+
 ### Other models: BERT using Cosine Similarity
 BERT models are used to generate embeddings for text data, but they didn't perform well in our case.
 
+<br>
+
 ### Final Model: Vectorization using GloVe embedding
 The final model employs GloVe embeddings and the document pool embedding technique. It generates a matrix for each city and calculates cosine similarity to suggest relevant places based on user queries.
+
+![](Report_Flowcharts_Screenshots/architecture_model_final.png)
+<p align = "center"> Final Model : Architecture </p>
+<br>
+
+![](Report_Flowcharts_Screenshots/k_means_clustering_model_final.png)
+<p align = "center"> K-Means clustering for Final Model </p>
+<br>
+<br>
+
+![](Report_Flowcharts_Screenshots/day_wise_sequence_of_clusters_model_final.png)
+<br>
+Day-wise sequence of clusters for Final Model
+
+![](Report_Flowcharts_Screenshots/travel_locations_corresponding_to_day_wise_sequence_of_clusters_model_final.png)
+<br>
+Travel locations corresponding to the day-wise sequence of clusters for Final Model
+<br>
+<br>
 
 ## Limitations
 - The dataset used was noisy and contained individual reviews of respective places. The data was transformed to the proper format.
