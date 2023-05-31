@@ -21,6 +21,9 @@ Our proposed methodology involves the following steps:
 ### Model 1: Clustering using Jaccard similarity
 This baseline model uses K-means clustering with Jaccard coefficient to filter out top-rated places. Precision is calculated by comparing the benchmark values with the predicted values.
 
+<!-- ![](images/model_1_architecture.jpg) -->
+<!-- Model 1 : Architecture -->
+
 ### Model 2: Clustering using Cosine Similarity
 The second baseline model utilizes the TF-IDF model with different weighing schemes and cosine similarity to filter out top-rated places. Precision is calculated by comparing the benchmark values with the predicted values.
 
