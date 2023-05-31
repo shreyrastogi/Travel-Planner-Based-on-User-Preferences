@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="css/style.css">  added later -->
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+</head>
+<body background="{{ url_for('static', filename='images/collage.jpeg') }}">
+    <h1 class = "travel_head">Welcome to Campfire travel planning system!</h1>
+    <h1 class = "travel_subhead">We give you the most relevant suggestions of tourist places in your city
+        of choice, considering your interests and inclinations! Not just that, we also give due value to your time!,
+        that's why we suggest you an efficient day-wise schedule of the top 10 places that match your preferences,
+        that'll save both your time and money! Give it a try! :) 
+    </h1>
+    <div>
+        <form action="/process" method="POST">
+            <label class = "t1" for="city">Select your city!:</label>
+            <select name="city" id="city_x" required>
+                <option value="new delhi">New Delhi</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="kolkata">Kolkata</option>
+                <option value="bengaluru">Bengaluru</option>
+                <option value="hyderabad">Hyderabad</option>
+                <option value="jaipur">Jaipur</option>
+                <option value="udaipur">Udaipur</option>
+                <option value="agra">Agra</option>
+                <option value="pune">Pune</option>
+            </select>
+            <!-- <input type="text" name="city" required> <br> -->
+            <textarea class="t2" name="preferences" id="" cols="25" rows="7" placeholder="Tell us about your purpose and interests for the trip!" required></textarea> <br>
+            <label class = "t1" for="num_days">Select the no. of days!:</label>
+            <!-- <input type="number" name="num_days" required /> <br> -->
+            <select name="num_days" id="num_days_x" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <button class = "submit" type="submit" name="submit_city">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
