@@ -33,6 +33,8 @@ This baseline model uses K-means clustering with Jaccard coefficient to filter o
 ![](Report_Flowcharts_Screenshots/day_wise_sequence_of_clusters_model_1.png)
 <br>
 Day-wise sequence of clusters for Model 1
+<br>
+<br>
 
 ![](Report_Flowcharts_Screenshots/travel_locations_corresponding_to_day_wise_sequence_of_clusters_model_1.png)
 <br>
@@ -55,6 +57,8 @@ The second baseline model utilizes the TF-IDF model with different weighing sche
 ![](Report_Flowcharts_Screenshots/day_wise_sequence_of_clusters_model_2.png)
 <br>
 Day-wise sequence of clusters for Model 2
+<br>
+<br>
 
 ![](Report_Flowcharts_Screenshots/travel_locations_corresponding_to_day_wise_sequence_of_clusters_model_2.png)
 <br>
@@ -82,6 +86,8 @@ The final model employs GloVe embeddings and the document pool embedding techniq
 ![](Report_Flowcharts_Screenshots/day_wise_sequence_of_clusters_model_final.png)
 <br>
 Day-wise sequence of clusters for Final Model
+<br>
+<br>
 
 ![](Report_Flowcharts_Screenshots/travel_locations_corresponding_to_day_wise_sequence_of_clusters_model_final.png)
 <br>
