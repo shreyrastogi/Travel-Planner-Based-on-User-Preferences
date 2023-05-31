@@ -6,16 +6,6 @@ The objective of our project is to generate an intelligent travel plan for the u
 ## Introduction
 Tourists often rely on travel agencies or websites for trip planning, but these sources often provide recommendations based on outdated data. Our approach aims to utilize user preferences and recent tourist reviews to curate a list of tourist hotspots that align with the user's preferences. Additionally, our schedule dynamically adapts to the user's travel preferences, optimizing time and distance parameters.
 
-## Literature Review
-- Recommendation System Based on Tourist Attraction [P.A. Manjare et al., 2016]
-- Mining Social Media to Create Personalized Recommendations for Tourists' Visit [Popesco Adrian et al., 2011]
-- A Travel Recommender System for Combining Multiple Travel Regions to a Composite Trip [Daniel Herzog and Wolfgang Worndl, 2014]
-- From Photos to Travel Itinerary: A Tourism Recommender System for Smart Tourism Destination [Mickael Figueredo et al., 2018]
-- User-based Collaborative Filtering for Tourist Attraction Recommendations [Zhiyang Jia et al., 2015]
-- ATIPS: Automatic Travel Itinerary Planning System for Domestic Areas [Yi-Ming Chang and Meng-Tze Tsai, 2016]
-- How Airbnb Tells You Will Enjoy Sunset Sailing in Barcelona? Recommendation in a Two-Sided Travel Marketplace [Liang Wu, Mihajlo Grbovic, 2020 Airbnb]
-- Online Travel Planner using Sentiment Analysis [Shivam Singh., 2020]
-
 ## Dataset Creation
 We preprocessed the Indian Places Reviews dataset, removing noise and irrelevant columns. The dataset contains reviews, ratings, and information about cities and places. We selected nine cities for our project due to computational limitations and discarded places with missing latitude and longitude information. Long reviews were shortened, resulting in a processed dataset for each city.
 
@@ -52,11 +42,10 @@ The unavailability of latitudes and longitudes for various places in the source 
 
 ## References
 1. [Dataset: Indian Places Reviews](https://www.kaggle.com/shravanijadhav23/indian-places-reviews/data)
-2. RecommendationSystemBasedonTouristAttraction
-3. [Mining social media to create personalized recommendations for tourist visits](https://www.researchgate.net/publication/221449162_Mining_social_media_to_create_personalized_recommendations_for_tourist_visits)
-4. [A travel recommender system for combining multiple travel regions to a composite trip](https://www.researchgate.net/publication/281655048_A_travel_recommender_system_for_combining_multiple_travel_regions_to_a_composite_trip)
-5. [From Photos to Travel Itinerary: A Tourism Recommender System for Smart Tourism Destination](https://www.researchgate.net/publication/326277455_From_Photos_to_Travel_Itinerary_A_Tourism_Recommender_System_for_Smart_Tourism_Destination)
-6. [User-Based Collaborative Filtering for Tourist Attraction Recommendations](https://www.researchgate.net/publication/281698410_User-Based_Collaborative_Filtering_for_Tourist_Attraction_Recommendations)
-7. [Related works](https://www.hindawi.com/journals/cin/2016/1281379/#relatedworks)
-8. [Research paper: A travel recommender system](https://dl.acm.org/doi/10.1145/3397271.3401444)
-9. [Research paper: IJREISS](https://www.indusedu.org/pdfs/IJREISS/IJREISS_3663_39823.pdf)
+2. [Mining social media to create personalized recommendations for tourist visits](https://www.researchgate.net/publication/221449162_Mining_social_media_to_create_personalized_recommendations_for_tourist_visits)
+3. [A travel recommender system for combining multiple travel regions to a composite trip](https://www.researchgate.net/publication/281655048_A_travel_recommender_system_for_combining_multiple_travel_regions_to_a_composite_trip)
+4. [From Photos to Travel Itinerary: A Tourism Recommender System for Smart Tourism Destination](https://www.researchgate.net/publication/326277455_From_Photos_to_Travel_Itinerary_A_Tourism_Recommender_System_for_Smart_Tourism_Destination)
+5. [User-Based Collaborative Filtering for Tourist Attraction Recommendations](https://www.researchgate.net/publication/281698410_User-Based_Collaborative_Filtering_for_Tourist_Attraction_Recommendations)
+6. [Related works](https://www.hindawi.com/journals/cin/2016/1281379/#relatedworks)
+7. [Research paper: A travel recommender system](https://dl.acm.org/doi/10.1145/3397271.3401444)
+8. [Research paper: IJREISS](https://www.indusedu.org/pdfs/IJREISS/IJREISS_3663_39823.pdf)
